@@ -10,4 +10,16 @@ If you are interested in the lessons taught in this course, you may look below f
 
 Data Snapshot: A database full of tweets consisting of positive tweets (labeled 0) and a subset of negative tweets (labeled 1).
 
-![](images/image1.png)
+![](images/data.png)
+
+<hr>
+
+Process 1: I wanted to visualize the words found in good and bad tweets. Below shows the distribution of positive tweets.
+
+![](images/good.png)
+
+<hr>
+
+... And here is a visualization of the distribution of negative tweets.
+
+![](images/bad.png)
