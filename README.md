@@ -26,6 +26,24 @@ Process 1: I wanted to visualize the words found in good and bad tweets. Below s
 
 <hr>
 
-Data Cleaning: I used string.punctuation to remove punctuations, and nltk.stopwords to remove unnecessary words. Tokenization was used to vectorize the final subset of words.
+Process 2: Data Cleaning. I used string.punctuation to remove punctuations, and nltk.stopwords to remove unnecessary words. Tokenization was used to vectorize the final subset of words.
 
-![](images/tokenization.png)
+![](images/cleaning.png)
+
+<hr>
+
+Process 3: I learned how to calculate Naive Bayesian Models. At a high level overview, Posterior Probability is calculated by taking components of Prior Probability and Likelihood. The notes on Naive Bayes is in the [notebook](https://nbviewer.jupyter.org/github/gianmillare/NLP-Sentiment-Analysis-Guide/blob/main/NLP_Sentiment.ipynb). Below is an image of my handwritten challenge to find probability of non-eligible retirees (example). This concept is then applied to the rest of the project.
+
+![](images/bayes6.png)
+
+<hr>
+
+Process 4: I use a Confusion Matric to validate my model before using a Classification Report. The summary of the Confusion Matrix is in the [notebook](https://nbviewer.jupyter.org/github/gianmillare/NLP-Sentiment-Analysis-Guide/blob/main/NLP_Sentiment.ipynb), below is an image of the results:
+
+![](images/cm.png)
+
+<hr>
+
+Lastly: Below is the Classification Report. Although this was a short project, It definitely gave me exposure to the world of Natural Language Processing. Love it!
+
+![](images/final.png)
