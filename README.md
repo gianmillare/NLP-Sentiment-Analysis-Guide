@@ -23,3 +23,9 @@ Process 1: I wanted to visualize the words found in good and bad tweets. Below s
 ... And here is a visualization of the distribution of negative tweets.
 
 ![](images/bad.png)
+
+<hr>
+
+Data Cleaning: I used string.punctuation to remove punctuations, and nltk.stopwords to remove unnecessary words. Tokenization was used to vectorize the final subset of words.
+
+![](images/tokenization.png)
